@@ -123,6 +123,7 @@ html{
   position: absolute;
   top: 30%;
   left: 15%;
+  right: 15%;
 }
 
 .banner h1{
@@ -747,6 +748,11 @@ html{
 }
 
 @media (max-width: 1000px) {
+  .banner{
+    left: 10%;
+    right: 10%;
+  }
+  
   .banner h1 {
     font-size: 5rem;
     line-height: 6rem;
@@ -838,6 +844,11 @@ html{
 }
 
 @media (max-width: 500px) {
+  .banner{
+    right: 5%;
+    left: 5%;
+  }
+  
   html {
     font-size: 45%;
   }
